@@ -13,7 +13,7 @@ class TransactionController extends Controller
 
     return response()->json([
         'status' => 200,
-        'message' => 'Categories retrieved successfully.',
+        'message' => 'Transactions retrieved successfully.',
         'data' => $transactions
     ], 200);
 }

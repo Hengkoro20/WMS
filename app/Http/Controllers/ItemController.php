@@ -13,7 +13,7 @@ class ItemController extends Controller
 
     return response()->json([
         'status' => 200,
-        'message' => 'Categories retrieved successfully.',
+        'message' => 'Items retrieved successfully.',
         'data' => $items
     ], 200);
 }
